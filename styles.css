@@ -4,10 +4,12 @@
 * {
     font-family: "Roboto", sans-serif;
 }
+
 body {
     margin: 0;
     padding: 0;
 }
+
 /* section 1*/
 header {
     background-color: #1F2937;
@@ -32,7 +34,7 @@ ul {
     display: flex;
     flex-direction: row;
     margin-right: 200px;
-    
+
 }
 
 li {
@@ -59,7 +61,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: self-start ;
+    align-items: self-start;
 }
 
 #titlehero h1 {
@@ -67,7 +69,7 @@ a {
     font-weight: 900;
     color: #f9faf8;
     white-space: nowrap;
-    
+
 }
 
 #titlehero p {
@@ -129,4 +131,64 @@ a {
     width: 140px;
     height: 140px;
     border-radius: 15px;
+}
+
+/*section 3 */
+
+#thirdsection {
+    background-color: #E5E7EB;
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+cite {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+/* fourth section */
+
+#fourthsection {
+    padding: 50px 350px;
+}
+
+#callact {
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 15px;
+    margin: 80px;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#callact button {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: 15px;
+    padding: 0px 100px;
+    color: #f9faf8;
+    font-size: 36px;
+}
+
+/* footer */
+
+footer {
+    color: #f9faf8;
+    padding: 20px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
